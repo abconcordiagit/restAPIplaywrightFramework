@@ -1,0 +1,22 @@
+{
+  "name": "playwright-jsonplaceholder-api",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript REST API Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/posts.spec.ts",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^25.9.1",
+    "dotenv": "^17.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
